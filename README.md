@@ -20,7 +20,7 @@ In this context, you want to use GitHub Actions Runners on Kubernetes and manage
        server: https://kubernetes.default.svc
      source:
        path: argocd
-       repoURL: https://github.com/joby-githubactions/github-arc.git
+       repoURL: https://github.com/joby-githubactions/github-runners.git
        targetRevision: HEAD
        directory:
          recurse: true
